@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="checkbox_magin_bottom">100.0dip</dimen>
+    <dimen name="imagepager_bottons_paddingbottom">6.0dip</dimen>
+    <dimen name="toast_margin_left">48.0dip</dimen>
+    <dimen name="toast_margin_right">48.0dip</dimen>
+    <dimen name="codedlock_prompt_title_padding">40.0dip</dimen>
+    <dimen name="mobile_search_padding_huge">111.0dip</dimen>
+    <dimen name="video_player_plugin_rightcontroler_item_paddingtop">12.0dip</dimen>
+    <dimen name="wap_2_netdisk_info_margin_top">65.0dip</dimen>
+</resources>

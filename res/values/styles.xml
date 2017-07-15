@@ -1,0 +1,36 @@
+<resources>
+
+    <!--
+        Base application theme, dependent on API level. This theme is replaced
+        by AppBaseTheme from res/values-vXX/styles.xml on newer devices.
+    -->
+    <style name="AppBaseTheme" parent="@android:style/Theme.Light.NoTitleBar">
+        <!--
+            Theme customizations available in newer API levels can go in
+            res/values-vXX/styles.xml, while customizations related to
+            backward-compatibility can go here.
+        -->
+    </style>
+
+    <!-- Application theme. -->
+    <style name="AppTheme" parent="AppBaseTheme">
+        <!-- All customizations that are NOT specific to a particular API-level can go here. -->
+    </style>
+
+    <style name="NetDisk" />
+
+    <style name="NetDisk.Unified" parent="@style/NetDisk" />
+
+    <style name="NetDisk.Unified.Smaller" parent="@style/NetDisk.Unified">
+        <item name="android:textSize">@dimen/text_size_smaller</item>
+    </style>
+
+    <style name="NetDisk.Unified.Smaller.Red2TabBarGray" parent="@style/NetDisk.Unified.Smaller">
+        <item name="android:textColor">@drawable/red_tabbargray_reverse_drawable</item>
+    </style>
+
+    <style name="NetDisk.Unified.Smaller.Blue2TabBarGray" parent="@style/NetDisk.Unified.Smaller">
+        <item name="android:textColor">@drawable/blue_tabbargray_reverse_drawable</item>
+    </style>
+
+</resources>

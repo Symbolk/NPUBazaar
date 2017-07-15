@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/background" >
+
+    <ImageView
+        android:id="@+id/detail_image"
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_weight="3.27"
+        android:src="@drawable/d4" />
+
+    <TextView
+        android:id="@+id/detail_price"
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:textSize="20sp"
+        android:text="价格：2.5元/张（可议价）" />
+
+    <TextView
+        android:id="@+id/detail_introduction"
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:textSize="20sp"
+        android:text="物品描述：纯手工绘制的明信片，双面，共有五种版本，多是动物黑白绘品，以及动漫电影人物绘品。尺寸为165*102mm。适合喜欢动漫，以及喜欢动物的朋友，适合赠送亲友，联络感情。成套购买可优惠，先到先得。" />
+
+</LinearLayout>

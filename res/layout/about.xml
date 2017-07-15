@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" 
+    android:background="@drawable/background">
+
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:src="@drawable/logo2" />
+
+    <TextView
+        android:id="@+id/txtLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="14dp"
+        android:text="@string/about"
+        android:textSize="20sp" />
+
+    <RatingBar
+        android:id="@+id/ratingBar1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="90dp" />
+
+    <Button
+        android:id="@+id/button1"
+        style="@style/AppBaseTheme"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/ratingBar1"
+        android:layout_alignParentBottom="true"
+        android:layout_alignRight="@+id/ratingBar1"
+        android:layout_marginBottom="36dp"
+        android:text="提交" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView5"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="10dp"
+        android:text="版本：1.1"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textView2"
+        android:layout_marginLeft="10dp"
+        android:layout_centerHorizontal="true"
+        android:text="作者：申博+袁浩洲+李凡+张鑫"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+    
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textView3"
+        android:layout_marginLeft="10dp"
+        android:textSize="15sp" 
+        android:gravity="center_horizontal"
+        android:layout_centerHorizontal="true"
+        android:text="联系我们：QQ 1572326530
+        TEl 18700781235"
+         />
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/imageView1"
+        android:layout_marginTop="45dp"
+        android:layout_marginLeft="10dp"
+          android:layout_marginRight="10dp"
+        android:text="瓜大漂流"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/ratingBar1"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="42dp"
+        android:text="给我们打个分吧！"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView1"
+        android:layout_alignLeft="@id/imageView1"
+         android:layout_marginLeft="10dp"
+        android:gravity="right"
+        android:text="----瓜大的集市；二手物品，家乡特产，手工纪念品，在此处都有自己的位置。"
+        android:textSize="15sp" />
+
+</RelativeLayout>
